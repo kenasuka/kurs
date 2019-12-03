@@ -1,0 +1,87 @@
+body { 
+	font-family: arial;
+	background: black;
+}
+
+.table {
+	text-align: left;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.thead-currency-buy-sell { 
+	text-align: left; 
+	color: white; 
+	font-size: 72px; 
+	font-weight: bold;
+	background-color: green;	
+}
+
+.th-currency {
+	padding: 0px 0px 0px 30px;
+}
+
+.th-buy {
+	padding: 0px 120px 0px 0px;
+}
+
+.th-sell {
+	padding: 0px 45px 0px 0px;
+}
+
+.bendera {
+	padding-left: 30px;
+}
+
+.satu {
+	color: white; 
+	font-size: 68px; 
+	font-weight: bold;
+	background-color: #393939;	
+}
+
+.dua { 
+	color: white; 
+	font-size: 68px; 
+	font-weight: bold;
+	background-color: black;	
+}
+
+.td-buy {
+	padding: 0px 0px 0px 100px;
+}
+
+.td-sell {
+	padding: 0px 0px 0px 50px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+}
+
+.jam {
+	font-size: 40px; 
+	font-weight: bold;
+	background-color: yellow;
+	color: black;
+	padding: 0px 10px 0px 10px;
+}
+
+.text-berjalan {
+	font-size: 40px;
+	font-weight: bold;
+	background-color: green;
+	color: white;
+	padding: 10px 0px 0px 0px;
+}
+
+.kurs-no {
+	white-space:nowrap;
+    overflow:hidden;
+    font-size: 40px; 
+	font-weight: bold;
+	background-color: yellow;
+	color: black;
+	padding: 0px 10px 0px 10px;
+}
