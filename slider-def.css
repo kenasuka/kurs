@@ -48,7 +48,7 @@
 /* Legend */
 .legend{
   border:500px solid transparent;
-  border-left:800px solid rgba(52, 73, 94, .7);
+  border-left:800px solid #222222e3;
   border-bottom:0;
   position:absolute;
   bottom:0;
@@ -62,7 +62,7 @@
   overflow:hidden;
 }
 .content-txt{
-  width:420px;
+  width:500px;
   height:150px;
   float:left;
   position:relative;
@@ -71,19 +71,30 @@
   -moz-animation:content-s 10s infinite;
   animation:content-s 10s infinite; /* harus seperempat s dari animation .slides */ 
 }
-.content-txt h1{
+.content-txt h1{ /*judul (jam operasional)*/
   font-family:Intro;
-  font-size:30px;
-  color:#fff;
+  font-weight: bold;
+  font-size:37px;
+  color:yellow;
   text-align:left;
   margin-left:30px;
   padding-bottom: 0px;
 }
-.content-txt h2{
+.content-txt h2{ /* bawah judul (kantor)*/
+  font-family:Quicksand;
+  font-weight:bold;
+  font-size:35px;
+  font-style:normal;
+  color:#fff;
+  text-align:left;
+  margin-left:30px;
+}
+
+.content-txt h3{ /* isi (detail jam buka)*/
   font-family:Quicksand;
   font-weight:normal;
   font-size:30px;
-  font-style:italic;
+  font-style:normal;
   color:#fff;
   text-align:left;
   margin-left:30px;
@@ -124,7 +135,7 @@
   animation:on 30s infinite;
 } */
 
-/* Animation */
+/*Animasi kotak miring*/
 @-webkit-keyframes slide{
   0%,100%{
     margin-left:0%;
@@ -204,42 +215,44 @@
   }
 }
 
-@-webkit-keyframes content-s{
-  0%{left:-420px;}
+/* Tulisan bergerak dari kanan ke kiri, mumet ilangi wae, lossssss ke coy*/
+
+@-webkit-keyframes content-s{ /* ubah angka 500px sampai pas tertutup ke kirinya*/
+  0%{left:-500px;}
   10%{left:0px;}
   30%{left:0px;}
   40%{left:0px;}
   50%{left:0px;}
   60%{left:0px;}
   70%{left:0;}
-  80%{left:-420px;}
-  90%{left:-420px;}
-  100%{left:-420px;}
+  80%{left:-500px;}
+  90%{left:-500px;}
+  100%{left:-500px;}
 }
 @-moz-keyframes content-s{
-  0%{left:-420px;}
+  0%{left:-500px;}
   10%{left:0px;}
   30%{left:0px;}
   40%{left:0px;}
   50%{left:0px;}
   60%{left:0px;}
   70%{left:0;}
-  80%{left:-420px;}
-  90%{left:-420px;}
-  100%{left:-420px;}
+  80%{left:-500px;}
+  90%{left:-500px;}
+  100%{left:-500px;}
 }
 @keyframes content-s{
-  0%{left:-420px;}
-  10%{left:20px;}
+  0%{left:-500px;}
+  10%{left:40px;}
   15%{left:0px;}
   30%{left:0px;}
   40%{left:0px;}
   50%{left:0px;}
   60%{left:0px;}
   70%{left:0;}
-  80%{left:-420px;}
-  90%{left:-420px;}
-  100%{left:-420px;}
+  80%{left:-500px;}
+  90%{left:-500px;}
+  100%{left:-500px;}
 }
 
 @-webkit-keyframes on{
@@ -250,22 +263,22 @@
     margin-left:0%;
   }
   25%{
-    margin-left:15px;
+    margin-left:20px;
   }
   46%{
-    margin-left:15px;
+    margin-left:20px;
   }
   50%{
-    margin-left:30px;
+    margin-left:40px;
   }
   71%{
-    margin-left:30px;
+    margin-left:40px;
   }
   75%{
-    margin-left:45px;
+    margin-left:60px;
   }
   96%{
-    margin-left:45px;
+    margin-left:60px;
   }
 }
 
@@ -277,22 +290,22 @@
     margin-left:0%;
   }
   25%{
-    margin-left:15px;
+    margin-left:20px;
   }
   46%{
-    margin-left:15px;
+    margin-left:20px;
   }
   50%{
-    margin-left:30px;
+    margin-left:40px;
   }
   71%{
-    margin-left:30px;
+    margin-left:40px;
   }
   75%{
-    margin-left:45px;
+    margin-left:60px;
   }
   96%{
-    margin-left:45px;
+    margin-left:60px;
   }
 }
 
@@ -304,21 +317,21 @@
     margin-left:0%;
   }
   25%{
-    margin-left:15px;
+    margin-left:20px;
   }
   46%{
-    margin-left:15px;
+    margin-left:20px;
   }
   50%{
-    margin-left:30px;
+    margin-left:40px;
   }
   71%{
-    margin-left:30px;
+    margin-left:40px;
   }
   75%{
-    margin-left:45px;
+    margin-left:60px;
   }
   96%{
-    margin-left:45px;
+    margin-left:60px;
   }
 }
