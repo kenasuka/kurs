@@ -13,7 +13,7 @@
   to{left:0;}
 }
 .slides{
-  width:400%;
+  width:500%;
   height:100%;
   position:relative;
   -webkit-animation:slide 40s infinite; /* timer slider */
@@ -21,7 +21,7 @@
   animation:slide 40s infinite; /* timer slider */
 }
 .slider{
-  width:25%;
+  width:20%;
   height:100%;
   float:left;
   position:relative;
@@ -48,7 +48,7 @@
 /* Legend */
 .legend{
   border:500px solid transparent;
-  border-left:800px solid #222222e3;
+  border-left:800px solid #0000004f;
   border-bottom:0;
   position:absolute;
   bottom:0;
@@ -67,9 +67,9 @@
   float:left;
   position:relative;
   top:350px;
-  -webkit-animation:content-s 10s infinite;
-  -moz-animation:content-s 10s infinite;
-  animation:content-s 10s infinite; /* harus seperempat s dari animation .slides */ 
+  -webkit-animation:content-s 8s infinite;
+  -moz-animation:content-s 8s infinite;
+  animation:content-s 8s infinite; /* harus seperempat s dari animation .slides */ 
 }
 .content-txt h1{ /*judul (jam operasional)*/
   font-family:Intro;
@@ -140,26 +140,32 @@
   0%,100%{
     margin-left:0%;
   }
-  21%{
+  16%{
     margin-left:0%;
   }
-  25%{
+  20%{
     margin-left:-100%;
   }
-  46%{
+  36%{
     margin-left:-100%;
   }
-  50%{
+  40%{
     margin-left:-200%;
   }
-  71%{
+  56%{
     margin-left:-200%;
   }
-  75%{
+  60%{
     margin-left:-300%;
+  }
+  76%{
+    margin-left:-300%;
+  }
+  80%{
+    margin-left:-400%;
   }
   96%{
-    margin-left:-300%;
+    margin-left:-400%;
   }
 }
 @-moz-keyframes slide{
@@ -192,26 +198,32 @@
   0%,100%{
     margin-left:0%;
   }
-  21%{
+  16%{
     margin-left:0%;
   }
-  25%{
+  20%{
     margin-left:-100%;
   }
-  46%{
+  36%{
     margin-left:-100%;
   }
-  50%{
+  40%{
     margin-left:-200%;
   }
-  71%{
+  56%{
     margin-left:-200%;
   }
-  75%{
+  60%{
     margin-left:-300%;
+  }
+  76%{
+    margin-left:-300%;
+  }
+  80%{
+    margin-left:-400%;
   }
   96%{
-    margin-left:-300%;
+    margin-left:-400%;
   }
 }
 
